@@ -84,7 +84,7 @@ public class ArrayEx23_풀이2 {
 					System.out.println("계좌 및 비밀번호를 확인.");
 				}
 				else {
-					for (int i = check; i < accsCnt - 1; i++) {			//왜 -1
+					for (int i = check; i < accsCnt - 1; i++) {		
 					   //int i = 1    ; i < 3 - 1
 						accs[i] = accs[i+1];
 						pws[i] = pws[i+1];
