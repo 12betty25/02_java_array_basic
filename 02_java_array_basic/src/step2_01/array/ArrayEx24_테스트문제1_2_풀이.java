@@ -98,14 +98,14 @@ public class ArrayEx24_테스트문제1_2_풀이 {
 		int[] arr2 = { 0,0,0,0,0 };
 		//예) k => {5,4,3,2,1};
 		
-		for (int j = arr1.length - 1; j >= 0; j--) {
-			for (int j2 = 0; j2 < arr2.length; j2++) {
-				arr2[j2] = arr1[j];
-			}
+		int j = 0;
+		for (int i = arr1.length - 1; i >= 0; i--) {
+			arr2[j] = arr1[i];
+			j++;
 		}
        
-		for (int j = 0; j < arr2.length; j++) {
-			System.out.print(arr2[j] + " ");
+		for (int i = 0; i < arr2.length; i++) {
+			System.out.print(arr2[i] + " ");
 		}
 		
 		
